@@ -2,23 +2,55 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>PhD Candidate</a> in Probabilistic Machine Learning
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><a href='assets/pdf/CV_Ignacio_Peis.pdf' target="_blank">[CV]</a></p>
+  #address: >
+  #  <p>Room 4.3.B01</p> 
+  #  <p>Dept. of Signal Theory and Communications</p>
+  #  <p>Universidad Carlos III de Madrid</p>
+  #  <p>Avenida de la Universidad, 30</p>
+  #  <p>28911 Leganés, Spain</p>
+
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a final year PhD Student in Probabilistic Machine Learning at <a href='https://www.uc3m.es/home'>UC3M</a> . My supervisors are 
+  <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a> 
+and 
+  <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a> 
+from the 
+  <a href='https://gts.tsc.uc3m.es/'>Signal Processing Group</a>. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<strong>Research</strong> 
+&nbsp;
+I am interested in the 
+connection between Deep Learning and Probabilistic Modelling. My current research lies in creating more 
+expressive generative models, increasing their robustness (e.g. dealing with mixed-type data or 
+missing data) and developing better inference methods. My work has been applied to several fields, 
+like Neuroscience or Psychiatry.
+
+<strong>Previously</strong> 
+&nbsp;
+I was a research intern at the 
+  <a href='http://mlg.eng.cam.ac.uk/'>Machine Learning Group</a>  
+in the 
+  <a href='http://www.eng.cam.ac.uk/'>Department of the Engineering</a>,
+  <a href='https://www.cam.ac.uk/'>University of Cambridge</a>
+  where I worked with
+  <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a> and 
+  <a href='https://chao-ma.org/'>Chao Ma</a>. 
+  I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
+  <a href='https://www.uc3m.es/home'>UC3M</a> 
+, and my Bachelor degree in Telecommunications Engineering from 
+  <a href='https://www.ugr.es/en'>UGR</a> 
+.

@@ -1,72 +1,135 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{peis2022missing,
+  abbr={arXiv}, 
+  title={Missing Data Imputation and Acquisition with Deep Hierarchical Models and Hamiltonian Monte Carlo},
+  author={Peis, Ignacio and Ma, Chao and Hern{\'a}ndez-Lobato, Jos{\'e} Miguel},
+  journal={arXiv preprint arXiv:2202.04599},
+  year={2022},
+  abstract={Variational Autoencoders (VAEs) have recently been highly successful at imputing
+      and acquiring heterogeneous missing data. However, within this specific application domain, existing VAE methods are restricted by using only one layer of
+      latent variables and strictly Gaussian posterior approximations. To address these
+      limitations, we present HH-VAEM, a Hierarchical VAE model for mixed-type incomplete data that uses Hamiltonian Monte Carlo with automatic hyper-parameter
+      tuning for improved approximate inference. Our experiments show that HH-VAEM
+      outperforms existing baselines in the tasks of missing data imputation and supervised learning with missing features. Finally, we also present a sampling-based
+      approach for efficiently computing the information gain when missing features are
+      to be acquired with HH-VAEM. Our experiments show that this sampling-based
+      approach is superior to alternatives based on Gaussian approximations.},
+  pdf={https://arxiv.org/pdf/2202.04599.pdf},
+  code={https://github.com/ipeis/HH-VAEM},
+  blog={http://localhost:4000/ipeis/blog/},
+  selected=True
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
+@article{peis2020actigraphic,
+  abbr={Nature SC},
+  title={Actigraphic recording of motor activity in depressed inpatients: a novel computational approach to prediction of clinical course and hospital discharge},
+  author={Peis, Ignacio and L{\'o}pez-Mor{\'\i}{\~n}igo, Javier-David and P{\'e}rez-Rodr{\'\i}guez, M Mercedes and Barrig{\'o}n, Maria-Luisa and Ruiz-G{\'o}mez, Marta and Artés-Rodríguez, Antonio and Baca-Garc{\'\i}a, Enrique},
+  journal={Scientific reports},
+  volume={10},
+  number={1},
+  pages={1--11},
+  year={2020},
+  publisher={Nature Publishing Group},
+  html={https://www.nature.com/articles/s41598-020-74425-x},
+  abstract={Depressed patients present with motor activity abnormalities, which can be easily recorded using actigraphy. 
+      The extent to which actigraphically recorded motor activity may predict inpatient clinical course and hospital discharge 
+      remains unknown. Participants were recruited from the acute psychiatric inpatient ward at Hospital Rey Juan Carlos 
+      (Madrid, Spain). They wore miniature wrist wireless inertial sensors (actigraphs) throughout the admission. We modeled 
+      activity levels against the normalized length of admission—‘Progress Towards Discharge’ (PTD)—using a Hierarchical 
+      Generalized Linear Regression Model. The estimated date of hospital discharge based on early measures of motor activity 
+      and the actual hospital discharge date were compared by a Hierarchical Gaussian Process model. Twenty-three depressed 
+      patients (14 females, age: 50.17 ± 12.72 years) were recruited. Activity levels increased during the admission (mean 
+      slope of the linear function: 0.12 ± 0.13). For n = 18 inpatients (78.26%) hospitalised for at least 7 days, the mean 
+      error of Prediction of Hospital Discharge Date at day 7 was 0.231 ± 22.98 days (95% CI 14.222–14.684). These n = 18 
+      patients were predicted to need, on average, 7 more days in hospital (for a total length of stay of 14 days) (PTD = 0.53).
+      Motor activity increased during the admission in this sample of depressed patients and early patterns of actigraphically 
+      recorded activity allowed for accurate prediction of hospital discharge date.}
+
+}
+
+@article{peis2020unsupervised,
+  abbr={arXiv}, 
+  title={Unsupervised learning of global factors in deep generative models},
+  author={Peis, Ignacio and Olmos, Pablo M. and Artés-Rodríguez, Antonio},
+  journal={arXiv preprint arXiv:2012.08234},
+  year={2020},
+  abstract={We present a novel deep generative model based on non i.i.d. variational autoencoders that captures global dependencies 
+      among observations in a fully unsupervised fashion. In contrast to the recent semi-supervised alternatives for global modeling in 
+      deep generative models, our approach combines a mixture model in the local or data-dependent space and a global Gaussian latent 
+      variable, which lead us to obtain three particular insights. First, the induced latent global space captures interpretable 
+      disentangled representations with no user-defined regularization in the evidence lower bound (as in β-VAE and its 
+      generalizations). Second, we show that the model performs domain alignment to find correlations and interpolate between different 
+      databases. Finally, we study the ability of the global space to discriminate between groups of observations with non-trivial 
+      underlying structures, such as face images with shared attributes or defined sequences of digits images.},
+  pdf={https://arxiv.org/pdf/2012.08234.pdf},
+  code={https://github.com/ipeis/UG-VAE},
+  selected=True
+}
+
+
+@article{peis2019deep,
+  abbr={JBHI},   
+  title={Deep sequential models for suicidal ideation from multiple source data},
+  author={Peis, Ignacio and Olmos, Pablo M. and Vera-Varela, Constanza and Barrig{\'o}n, Mar{\'\i}a Luisa and Courtet, Philippe and Baca-Garcia, Enrique and Artés-Rodríguez, Antonio},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  volume={23},
   number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  pages={2286--2293},
+  year={2019},
+  publisher={IEEE},
+  abstract={This paper presents a novel method for predicting suicidal ideation from electronic health records (EHR) and ecological momentary 
+      assessment (EMA) data using deep sequential models. Both EHR longitudinal data and EMA question forms are defined by asynchronous, variable 
+      length, randomly sampled data sequences. In our method, we model each of them with a recurrent neural network, and both sequences are aligned
+      by concatenating the hidden state of each of them using temporal marks. Furthermore, we incorporate attention schemes to improve performance 
+      in long sequences and time-independent pre-trained schemes to cope with very short sequences. Using a database of 1023 patients, our 
+      experimental results show that the addition of EMA records boosts the system recall to predict the suicidal ideation diagnosis from 48.13% 
+      obtained exclusively from EHR-based state-of-the-art methods to 67.78%. Additionally, our method provides interpretability through the 
+      t-distributed stochastic neighbor embedding (t-SNE) representation of the latent space. Furthermore, the most relevant input features are 
+      identified and interpreted medically.},
+  html={https://ieeexplore.ieee.org/abstract/document/8723181},
+  arxiv={https://arxiv.org/abs/1911.03522},
+  selected=True
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{castillo2017heavy,
+  abbr={Frontiers}, 
+  title={A heavy tailed expectation maximization hidden markov random field model with applications to segmentation of MRI},
+  author={Castillo-Barnes, Diego and Peis, Ignacio and Mart{\'\i}nez-Murcia, Francisco J and Segovia, Ferm{\'\i}n and Ill{\'a}n, Ignacio A. and G{\'o}rriz, Juan M. and Ram{\'\i}rez, Javier and Salas-Gonzalez, Diego},
+  journal={Frontiers in neuroinformatics},
+  volume={11},
+  pages={66},
+  year={2017},
+  publisher={Frontiers},
+  html={https://www.frontiersin.org/articles/10.3389/fninf.2017.00066/full},
+  abstract={A wide range of segmentation approaches assumes that intensity histograms extracted from magnetic resonance images (MRI) have a 
+      distribution for each brain tissue that can be modeled by a Gaussian distribution or a mixture of them. Nevertheless, intensity histograms 
+      of White Matter and Gray Matter are not symmetric and they exhibit heavy tails. In this work, we present a hidden Markov random field model 
+      with expectation maximization (EM-HMRF) modeling the components using the α-stable distribution. The proposed model is a generalization of 
+      the widely used EM-HMRF algorithm with Gaussian distributions. We test the α-stable EM-HMRF model in synthetic data and brain MRI data. 
+      The proposed methodology presents two main advantages: Firstly, it is more robust to outliers. Secondly, we obtain similar results than 
+      using Gaussian when the Gaussian assumption holds. This approach is able to model the spatial dependence between neighboring voxels in 
+      tomographic brain MRI.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{peis2016mri,
+  abbr={NSS/MIC},
+  title={MRI brain segmentation using hidden Markov random fields with alpha-stable distributions},
+  author={Peis, A. Ill{\'a}n, Ignacio and Mart{\'\i}nez-Murcia, Francisco J. and Segovia, Fermín and G{\'o}rriz, Juan M. and Ram{\'\i}rez, Javier and Lang, Elmar W. and Salas-Gonzalez, Diego},
+  booktitle={2016 IEEE Nuclear Science Symposium, Medical Imaging Conference and Room-Temperature Semiconductor Detector Workshop (NSS/MIC/RTSD)},
+  pages={1--3},
+  year={2016},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8069422},
+  abstract={A MRI brain image segmentation method using a hidden Markov random fields with heavy-tailed alpha-stable distributions is presented. 
+      Each brain tissue is modelled using an alpha-stable distribution. Then, a HMRF is used to include spatial information in the classification 
+      model. The Gaussian distribution has been widely used for the modelization of the cerebrospinal fluid, white matter and gray matter. Nevertheless, 
+      the alpha-stable distribution has been recently proposed as a more accurate alternative for this task. The alpha-stable distribution is more 
+      impulsive and is also able to model the asymmetry and heavy-tails of the histogram of the brain tissues. We have tested the proposed methodology 
+      in 18 MR images from the Internet Brain Segmentation Repository. The proposed methodology outperforms the segmentation results obtained when a 
+      Gaussian model for the histogram of the brain tissues is considered. Furthermore, as the Normal distribution is a particulaar case of alpha-stable 
+      distribution. Therefore, the proposed approach is also a generalization of the hidden Markov random field segmentation method with Gaussian 
+      distributions.},
 }

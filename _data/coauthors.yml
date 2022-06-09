@@ -1,18 +1,18 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Artés-Rodríguez":
+  - firstname: ["Antonio", "A."]
+    url: https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Olmos":
+  - firstname: ["Pablo", "P.", "Pablo M.", "P. M."]
+    url: https://www.tsc.uc3m.es/~olmos/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Hernández-Lobato":
+  - firstname: ["José-Miguel", "José Miguel", "J.M.", "Jose Miguel"]
+    url: https://jmhl.org/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Ma":
+  - firstname: ["Chao", "C."]
+    url: https://chao-ma.org/
+
+    
