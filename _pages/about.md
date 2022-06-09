@@ -42,13 +42,13 @@ like Neuroscience or Psychiatry.
 <strong>Previously</strong> 
 &nbsp;
 I was a research intern at the 
-  <a href='http://mlg.eng.cam.ac.uk/'>Machine Learning Group</a>  
+  <a href='http://mlg.eng.cam.ac.uk/'>Machine Learning Group</a>
 in the 
   <a href='http://www.eng.cam.ac.uk/'>Department of the Engineering</a>,
   <a href='https://www.cam.ac.uk/'>University of Cambridge</a>
-  where I worked with
+where I worked with
   <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a>.
-  I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
+I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
   <a href='https://www.uc3m.es/home'>UC3M</a>, 
-  and my Bachelor degree in Telecommunications Engineering from 
+and my Bachelor degree in Telecommunications Engineering from 
   <a href='https://www.ugr.es/en'>UGR</a>.
