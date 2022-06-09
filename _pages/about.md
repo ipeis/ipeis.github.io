@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am a final year PhD Student in Probabilistic Machine Learning at <a href='https://www.uc3m.es/home'>UC3M</a> . My supervisors are 
+I am a final year PhD Student in Probabilistic Machine Learning at <a href='https://www.uc3m.es/home'>UC3M</a>. My supervisors are 
   <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a> 
 and 
   <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a> 
@@ -49,7 +49,7 @@ in the
   where I worked with
   <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a>.
   I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
-  <a href='https://www.uc3m.es/home'>UC3M</a> 
+  <a href='https://www.uc3m.es/home'>UC3M</a>
 , and my Bachelor degree in Telecommunications Engineering from 
   <a href='https://www.ugr.es/en'>UGR</a> 
 .
