@@ -47,8 +47,7 @@ in the
   <a href='http://www.eng.cam.ac.uk/'>Department of the Engineering</a>,
   <a href='https://www.cam.ac.uk/'>University of Cambridge</a>
   where I worked with
-  <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a> and 
-  <a href='https://chao-ma.org/'>Chao Ma</a>. 
+  <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a>.
   I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
   <a href='https://www.uc3m.es/home'>UC3M</a> 
 , and my Bachelor degree in Telecommunications Engineering from 
