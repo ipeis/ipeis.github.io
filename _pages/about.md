@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>PhD Candidate</a> in Probabilistic Machine Learning
+subtitle: <b>PhD Candidate</b> in Probabilistic Machine Learning
 
 profile:
   align: right
