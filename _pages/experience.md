@@ -17,7 +17,7 @@ nav_order: 1
 * Feb 2021 - Feb 2022: <br>
 &emsp;      <a href='http://mlg.eng.cam.ac.uk/'><b>Machine Learning Group</b></a> , <a href='https://www.cam.ac.uk/'><b>University of Cambridge</b></a> <br>
 &emsp;      <em>Research Visitor</em> <br>
-&emsp;      Advisor: <a href='https://jmhl.org/'>Dr. José Miguel Hernández-Lobato</a>
+&emsp;      Advisor: <a href='https://jmhl.org/'>Prof. José Miguel Hernández-Lobato</a>
 
 * Feb 2017 - Sep 2019: <br>
 &emsp;      <a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a>, Spain. <br>
