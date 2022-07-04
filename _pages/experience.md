@@ -52,10 +52,10 @@ nav_order: 1
 
 # Talks
 
-* Jun 2022  <br> 
+* Jul 2022  <br> 
 &emsp;      <em>Missing Data Imputation and Acquisition with Deep Hierarchical Models and Hamiltonian Monte Carlo</em> <br>
 &emsp;      <a href='https://gts.tsc.uc3m.es/'>Signal Processing Group</a>  
-&emsp;      <a href=''>[slides]</a>
+&emsp;      <a href='../assets/pdf/07_01_22_presentation.pdf' target="_blank" rel="noopener noreferrer">[slides]</a>
 
 * Jul 2018 <br>
 &emsp;      <em>Deep Sequential Models for Suicidal Ideation from Multiple Source Data</em> <br>
@@ -83,10 +83,6 @@ nav_order: 1
 
 
 # Fellowships
-
-* Oct 2021 <br>
-&emsp;      FPU granted to fund a research internship at the <a href='https://www.cam.ac.uk/'>University of Cambridge</a> <br>
-&emsp;      <b>Spanish Ministry of Education</b>
 
 * Sep 2019 <br>
 &emsp;      FPU granted to fund doctoral studies <br>
