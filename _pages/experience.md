@@ -62,6 +62,19 @@ nav_order: 1
 &emsp;      <a href='https://gts.tsc.uc3m.es/'>Signal Processing Group</a>  
 
 
+# Reviewing
+
+<img src="assets/../../assets/img/jmlr.gif"
+     alt="Markdown Monster icon"
+     style="float: right; margin-right: 10px; width:20%;" />
+
+* 2022 <br>
+&emsp;      <a href='https://www.jmlr.org/'>Journal of Machine Learning Research (JMLR)</a> 
+
+* 2018 - 2022 <br>
+&emsp;      <a href='https://www.embs.org/jbhi/'>IEEE Journal of Biomedical and Health Informatics (JBHI)</a> 
+
+
 
 # Education
 

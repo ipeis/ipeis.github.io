@@ -22,6 +22,11 @@ to be updated soon!
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
 2022
 
+<em>Machine Learning II</em> \\
+<a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
+<a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
+2020, 2022
+
 <em>Neural Networks</em> \\
 <a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
 <a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
@@ -34,10 +39,7 @@ to be updated soon!
 2022
 
 
-<em>Machine Learning II</em> \\
-<a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
-<a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
-2020
+
 
 
 
