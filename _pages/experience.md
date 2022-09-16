@@ -95,6 +95,35 @@ nav_order: 1
 &emsp;      <a href='https://grados.ugr.es/telecomunicacion/?lang=en'><em>BSc in Telecommunication Engineering</em></a>. <br>
 
 
+
+# Courses
+
+* Sep 2022 <br>
+&emsp;      <a href='https://ccaim.cam.ac.uk/summer-school/'><b>AI and Machine Learning in Healthcare Summer School</b></a><br>
+&emsp;      <a href='https://ccaim.cam.ac.uk'><emph>Cambridge Centre for AI in Medicine</emph></a><br>
+&emsp;      <a href='https://www.cam.ac.uk'><emph>University of Cambridge</emph></a>, UK<br>
+
+* Sep 2020 <br>
+&emsp;      <a href='http://gpss.cc/gpss20/'><b>Gaussian Process and Uncertainty Quantification Summer School, 2020</b></a><br>
+&emsp;      <a href='https://usic.sheffield.ac.uk'><emph>University of Sheffield</emph></a>, UK<br>
+
+* Sep 2019 <br>
+&emsp;      <a href='https://smiles.skoltech.ru/mlss2019'><b>Machine Learning Summer School (MLSS) 2019</b></a><br>
+&emsp;      <a href='http://skoltech.ru'><emph>Skoltech Institute of Science and Technology</emph></a>, Moscow, Russia<br>
+
+* Sep 2019 <br>
+&emsp;      <a href='https://mlfpm.eu/1-summer-school/'><b>Machine Learning Frontiers in Precision Medicine (MLFPM) 1st Summer School</b></a><br>
+&emsp;      Basel, Switzerland<br>
+
+* Sep 2018 <br>
+&emsp;      <a href='http://mlss.ii.uam.es/mlss2018/index.html'><b>Machine Learning Summer School (MLSS) 2018</b></a><br>
+&emsp;      <a href='https://www.uam.es/uam/en/inicio'><emph>Skoltech Institute of Science and Technology</emph></a>, Moscow, Russia<br>
+
+* Sep 2017 <br>
+&emsp;      <a href='http://gpss.cc/gpss17/'><b>Gaussian Process and Uncertainty Quantification Summer School, 2017</b></a><br>
+&emsp;      <a href='https://usic.sheffield.ac.uk'><emph>University of Sheffield</emph></a>, UK<br>
+
+
 # Fellowships
 
 * Sep 2019 <br>
