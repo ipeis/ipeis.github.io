@@ -64,9 +64,13 @@ nav_order: 1
 
 # Reviewing
 
+
 <img src="assets/../../assets/img/jmlr.gif"
      alt="Markdown Monster icon"
      style="float: right; margin-right: 10px; width:20%;" />
+     
+* 2022 <br>
+&emsp;      <a href='https://aistats.org'>Artificial Intelligence and Statistics (AISTATS)</a> 
 
 * 2022 <br>
 &emsp;      <a href='https://www.jmlr.org/'>Journal of Machine Learning Research (JMLR)</a> 
