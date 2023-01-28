@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpeg
   address: >
-    <p><a href='assets/pdf/CV_Ignacio_Peis.pdf' target="_blank">[CV]</a></p>
+    <p><center><font size="+3"><a href='assets/pdf/CV_Ignacio_Peis.pdf' target="_blank">[CV]</a></font></center></p>
   #address: >
   #  <p>Room 4.3.B01</p> 
   #  <p>Dept. of Signal Theory and Communications</p>
