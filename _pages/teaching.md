@@ -14,13 +14,13 @@ to be updated soon!
 
 ### Courses
 
-<em>Machine Learning Fundamentals</em> \\
+<em>Course in Machine Learning Fundamentals</em> \\
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
-2020-2022
+2020-Present
 
-<em>Advanced Machine Learning and Feature Engineering</em> \\
+<em>Course in Advanced Machine Learning and Feature Engineering</em> \\
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
-2022
+2022-Present
 
 <em>Machine Learning II</em> \\
 <a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
