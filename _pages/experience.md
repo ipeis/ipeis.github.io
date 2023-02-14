@@ -114,6 +114,7 @@ nav_order: 1
 &emsp;      Sep 2019 <br>
 
 * <a href='http://mlss.ii.uam.es/mlss2018/index.html'><em><b>Machine Learning Summer School (MLSS) 2018</b></em></a><br>
+&emsp;      <a href='http://mlss.ii.uam.es/mlss2018/organizers.html'>Volunteer staff</a><br>
 &emsp;      <a href='https://www.uam.es/uam/en/inicio'>Universidad Autónoma de Madrid</a>, Madrid, Spain<br>
 &emsp;      Sep 2018 <br>
 
