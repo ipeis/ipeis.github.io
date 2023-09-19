@@ -14,23 +14,27 @@ to be updated soon!
 
 ### Courses
 
-<em>Course in Machine Learning Fundamentals</em> \\
+<em>Course in Advanced Machine Learning </em> \\
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
-2020-Present
+2023
 
-<em>Course in Advanced Machine Learning and Feature Engineering</em> \\
+<em>Course in Intermediate Machine Learning and Feature Engineering</em> \\
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
 2022-Present
 
-<em>Machine Learning II</em> \\
-<a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
-<a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
-2020, 2022
+<em>Course in Machine Learning Fundamentals</em> \\
+<a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
+2020-Present
 
 <em>Neural Networks</em> \\
 <a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
 <a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
 2022
+
+<em>Machine Learning II</em> \\
+<a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
+<a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> \\
+2020, 2022
 
 <em>Communications Theory</em> \\
 <a href='https://www.uc3m.es/bachelor-degree/telecommunication'>Bachelor in Telecommunications Engineering</a> \\
