@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>PhD Candidate</b> in Probabilistic Machine Learning
+subtitle: <b>Postdoctoral Researcher</b>
 
 profile:
   align: right
@@ -23,12 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am a final year PhD Student in Probabilistic Machine Learning at <a href='https://www.uc3m.es/home'>UC3M</a>. My supervisors are 
-  <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a> 
-and 
-  <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a> 
-from the 
-  <a href='https://gts.tsc.uc3m.es/'>Signal Processing Group</a>. 
+I am a postdoctoral researcher at the Section for Cognitive Systems at the <a href='https://www.dtu.dk/english/'>Technical University of Denmark (DTU)</a>. I work within <a href='https://frellsen.org/'>Jes Frellsen's</a> group, where we embark on a range of fascinating projects. My primary research interests lie in Deep Generative Modelling, Bayesian Inference, and their applications.
 
 
 <strong>Research</strong> 
@@ -41,7 +36,12 @@ like Neuroscience or Psychiatry.
 
 <strong>Previously</strong> 
 &nbsp;
-I was a research intern at the 
+I completed my PhD in Probabilistic Machine Learning at <a href='https://www.uc3m.es/home'>Universidad Carlos III de Madrid (UC3M)</a>, where I was supervised by <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a> 
+and 
+  <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a> 
+from the 
+  <a href='https://gts.tsc.uc3m.es/'>Signal Processing Group</a>. 
+Previously, I was a research intern at the 
   <a href='http://mlg.eng.cam.ac.uk/'>Machine Learning Group</a>
 in the 
   <a href='http://www.eng.cam.ac.uk/'>Department of the Engineering</a>,
@@ -51,4 +51,4 @@ where I worked with
 I obtained two MSc degrees in Telecommunications Engineering and Signal Processing from 
   <a href='https://www.uc3m.es/home'>UC3M</a>, 
 and my Bachelor degree in Telecommunications Engineering from 
-  <a href='https://www.ugr.es/en'>UGR</a>.
+  <a href='https://www.ugr.es/en'>Universidad de Granada (UGR)</a>.

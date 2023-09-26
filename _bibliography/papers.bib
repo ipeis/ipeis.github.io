@@ -1,6 +1,25 @@
 ---
 ---
 
+@book{peis2023advanced,  
+  abbr={PhD Thesis},
+  title = {Advanced Inference and Representation Learning Methods in Variational Autoencoders},
+  author = {Peis, Ignacio},  
+  booktitle = {PhD Thesis Dissertation},  
+  year = {2023},
+  abstract={
+    Deep Generative Models have gained significant popularity in the Machine Learning research community since the early 2010s. These models allow to generate realistic data by leveraging the power of Deep Neural Networks. The field experienced a significant breakthrough when Variational Autoencoders (VAEs) were introduced. VAEs revolutionized Deep Generative Modeling by providing a scalable and flexible framework that enables the generation of complex data distributions and the learning of potentially interpretable latent representations. They have proven to be a powerful tool in numerous applications, from image, sound and video generation to natural language processing or drug discovery, among others.
+At their core, VAEs encode natural information into a reduced latent space and decode the learned latent space into new synthetic data. Advanced versions of VAEs have been developed to handle challenges such as handling heterogeneous incomplete data, encoding into hierarchical latent spaces for representing abstract and richer concepts, or modeling sequential data, among others. These advances have expanded the capabilities of VAEs and made them a valuable tool in a wide range of fields.
+
+Despite the significant progress made in VAE research, there is still ample room for improvement in their current state-of-the-art. One of the major challenges is improving their approximate inference. VAEs typically assume Gaussian approximations of the posterior distribution of the latent variables in order to make the training objective tractable. The parameters of this approximation are provided by encoder networks. However, this approximation leads to a lower bounded objective, which can degrade the performance of any task that requires samples from the approximate posterior, due to the implicit bias. The second major challenge addressed in this thesis is related to achieving meaningful latent representations, or more broadly, how the latent space disentangles generative factors of variation. Ideally, the latent space would modulate meaningful properties separately within each dimension. However, Maximum Likelihood optimizations require the marginalization of latent variables, leading to non-unique solutions that may or may not achieve this desired disentanglement. Additionally, properties learned at the observation level in VAEs assume that every observation is generated independently, which may not be the case in some scenarios. To address these limitations, more robust VAEs have been developed to learn disentangled properties at the supervised group (also referred to as global) level. These models are capable of generating groups of data with shared properties.
+
+The work presented in this doctoral thesis focuses on the development of novel methods for improving the state-of-the-art in VAEs. Specifically, three fundamental challenges are addressed: achieving meaningful global latent representations, obtaining highly-flexible priors for learning more expressive models, and improving current approximate inference methods. As a first main contribution, an innovative technique named UG-VAE from Unsupervised-Global VAE, aims to enhance the ability of VAEs in capturing factors of variations at data (local) and group (global) level. By carefully desigining the encoder and the decoder, and throughout conductive experiments, it is demonstrated that UG-VAE is effective in capturing unsupervised global factors from images. Second, a non-trivial combination of highly-expressive Hierarchical VAEs with robust Markov Chain Monte Carlo inference (specifically Hamiltonian Monte Carlo), for which important issues are successfully resolved, is presented. The resulting model, referred to as the Hierarchical Hamiltonian VAE model for Mixed-type incomplete data (HH-VAEM), addresses the challenges associated with imputing and acquiring heterogeneous missing data. Throughout extensive experiments, it is demonstrated that HH-VAEM outperforms existing one-layered and Gaussian baselines in the tasks of missing data imputation and supervised learning with missing features, thanks to its improved inference and expressivity. Furthermore, another relevant contribution is presented, namely a sampling-based approach for efficiently computing the information gain when missing features are to be acquired with HH-VAEM. This approach leverages the advantages of HH-VAEM and is demonstrated to be effective in the same tasks.
+  },
+  pdf={https://ipeis.github.io/assets/pdf/PhD_Thesis_Ignacio_Peis_Defense.pdf},
+  slides={https://ipeis.github.io/assets/pdf/PhD_Presentation_Ignacio_Peis.pdf},
+  selected=False
+  }
+
 @inproceedings{koyuncu2023variational,  
   abbr={ICML},
   title = {Variational Mixture of HyperGenerators for Learning Distributions Over Functions},
