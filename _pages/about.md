@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-I am a postdoctoral researcher at the Section for Cognitive Systems at the <a href='https://www.dtu.dk/english/'>Technical University of Denmark (DTU)</a>. I work within <a href='https://frellsen.org/'>Jes Frellsen's</a> group, where we embark on a range of fascinating projects. My primary research interests lie in Deep Generative Modelling, Bayesian Inference, and their applications.
+I am a postdoctoral researcher at the <a href='https://www.compute.dtu.dk/english/research/research-sections/cogsys'>Section for Cognitive Systems</a>, in <a href='https://www.dtu.dk/english/'>Technical University of Denmark (DTU)</a>. I work within <a href='https://frellsen.org/'>Jes Frellsen's</a> group, where we embark on a range of fascinating projects. My primary research interests lie in Deep Generative Modelling, Bayesian Inference, and their applications.
 
 
 <strong>Research</strong> 
