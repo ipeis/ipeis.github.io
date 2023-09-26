@@ -5,6 +5,6 @@ inline: true
 ---
 
 I successfully defended my PhD thesis! What an enriching experience. Thank you all for your support. You can find here the
-<a href="https://ipeis.github.io/assets/pdf/PhD_Thesis_Ignacio_Peis_Defense.pdf">[manuscript]</a>
+<a href="https://ipeis.github.io/assets/pdf/PhD_Thesis_Ignacio_Peis_Defense.pdf" target=”_blank”>[manuscript]</a>
 and the
-<a href="https://ipeis.github.io/assets/pdf/PhD_Presentation_Ignacio_Peis.pdf">[slides]</a>.
+<a href="https://ipeis.github.io/assets/pdf/PhD_Presentation_Ignacio_Peis.pdf" target=”_blank”>[slides]</a>.
