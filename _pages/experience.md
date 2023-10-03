@@ -19,6 +19,14 @@ nav_order: 1
   &emsp;      Feb 2017 - Sep 2019  
   <br>
 
+* <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a>: <br>
+  * &emsp;      <em><b>Course Instructor</b></em> <br>
+  &emsp;      Fundamental, Intermediate and Advanced Machine Learning courses for BBVA employees.
+  <br>
+  * &emsp;      <em><b>Research Associate</b></em>. <br>
+  &emsp;      Advisor: <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a>. <br>
+  &emsp;      Feb 2017 - Sep 2019  
+  <br>
 
 * <a href='https://www.cam.ac.uk/'><b>University of Cambridge</b></a>: <br>
      * &emsp;      <em><b>Research Visitor</b></em> <br>
@@ -33,9 +41,13 @@ nav_order: 1
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
 2020-Present
 
-* <em><b>Course in Advanced Machine Learning and Feature Engineering</b></em> \\
+* <em><b>Course in Intermediate Machine Learning and Feature Engineering</b></em> \\
 <a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
 2022-Present
+
+* <em><b>Course in Advanced Machine Learning</b></em> \\
+<a href='https://www.bbva.es/en/empresas.html'><b>BBVA</b></a>, <a href='https://www.fundacion.uc3m.es/'><b>Fundación UC3M</b></a> \\
+2023
 
 * <em><b>Machine Learning II</b></em> \\
 <a href='https://www.uc3m.es/bachelor-degree/data-science'>Bachelor in Data Science Engineering</a> \\
@@ -59,7 +71,7 @@ nav_order: 1
 * <em><b>PhD in Probabilistic Machine Learning</b></em> <br>
      &emsp;      <a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a> <br>
      &emsp;      Advisors: <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a>, <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a> <br>
-     &emsp;      Oct 2019 - Present <br>
+     &emsp;      Oct 2019 - Oct 2023 <br>
 
 
 * <a href='https://www.uc3m.es/master/advanced-communications-technologies'><em><b>MSc in Multimedia and Communications</b></em></a> <br>
@@ -125,6 +137,11 @@ nav_order: 1
 
 # Talks
 
+* <em>"Information Acquisition and Distributions of Functions with Deep Generative Models"</em>, Jun 2023, at <a href='https://www.aicentre.dk/'>Pioneer Centre for Artificial Intelligence, Copenhagen, Denmark</a> <br> 
+&emsp;      <a href='https://ipeis.github.io/assets/pdf/CV_Ignacio_Peis.pdf' target="_blank" rel="noopener noreferrer">[slides]</a>
+            <a href='https://slideslive.com/38990390' target="_blank" rel="noopener noreferrer">[video]</a> <br>
+
+
 * <em>"Missing Data Imputation and Acquisition with Deep Hierarchical Models and Hamiltonian Monte Carlo"</em>, Dec 2022, at <a href='https://nips.cc/Conferences/2022'>NeurIPS22</a> <br> 
 &emsp;      <a href='https://ipeis.github.io/assets/pdf/NeurIPS_presentation.pdf' target="_blank" rel="noopener noreferrer">[slides]</a>
             <a href='https://slideslive.com/38990390' target="_blank" rel="noopener noreferrer">[video]</a> <br>
@@ -137,6 +154,15 @@ nav_order: 1
 
 
 # Fellowships
+
+* May 2023 <br>
+&emsp;      Postdoctoral Fellowship.<br>
+&emsp;      <a href='https://ddsa.dk/'><b>Danish Data Science Academy (DDSA)</b></a>
+&emsp;       <a href='https://novonordiskfonden.dk/en/'><b>Novo Nordisk Foundation</b></a>
+
+* Sep 2021 <br>
+&emsp;      FPU granted to fund research visit <br>
+&emsp;      <b>Spanish Ministry of Education</b>
 
 * Sep 2019 <br>
 &emsp;      FPU granted to fund doctoral studies <br>
