@@ -4,9 +4,9 @@
 
 title: Ignacio Peis # the website title (if blank, full name will be used instead)
 first_name: Ignacio
-middle_name: Peis
-#last_name: Name
-email: ipeis@tsc.uc3m.es
+#middle_name: Peis
+last_name: Peis
+email: ipeaz@dtu.dk
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal website
 footer_text: >
