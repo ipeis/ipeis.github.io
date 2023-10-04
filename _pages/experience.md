@@ -9,10 +9,16 @@ nav_order: 1
 
 # Work Experience
 
+* <a href='https://www.dtu.dk/english/'><b>Technical University of Denmark (DTU)</b></a>: <br>
+  * &emsp;      <em><b>Postdoctoral Researcher</b></em> <br>
+  &emsp;      <a href='https://frellsen.org/'>Jes Frellsen's</a> group at the <a href='https://www.compute.dtu.dk/english/research/research-sections/cogsys'>Section for Cognitive Systems</a> <br>
+  &emsp;      Oct 2023 - Present  
+  <br>
+  
 * <a href='https://www.uc3m.es/home'><b>Universidad Carlos III de Madrid</b></a>: <br>
   * &emsp;      <em><b>Predoctoral Researcher</b></em> <br>
   &emsp;      Advisors: <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a>, <a href='https://www.tsc.uc3m.es/~olmos/'>Dr. Pablo M. Olmos</a>. <br>
-  &emsp;      Oct 2019 - Present  
+  &emsp;      Oct 2019 - Sept 2023  
   <br>
   * &emsp;      <em><b>Research Associate</b></em>. <br>
   &emsp;      Advisor: <a href='https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html'>Prof. Antonio Artés-Rodríguez</a>. <br>
