@@ -7,8 +7,9 @@ subtitle: <b>Postdoctoral Researcher</b>
 profile:
   align: right
   image: prof_pic.jpeg
-  address: >
-    <p><center><font size="+3"><a href='assets/pdf/CV_Ignacio_Peis.pdf' target="_blank">[CV]</a></font></center></p>
+  image_circular: true # crops the image to make it circular
+  #more_info: >
+
   #address: >
   #  <p>Room 4.3.B01</p> 
   #  <p>Dept. of Signal Theory and Communications</p>
@@ -18,6 +19,7 @@ profile:
 
 
 news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 

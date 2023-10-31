@@ -1,0 +1,31 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign reviewing = data[1] | sort: 'startDate' | reverse %}
+  {% for journal in reviewing %}
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-xs-2 cl-sm-2 col-md-2 text-center">
+        {% if journal.startDate and journal.startDate != "" %}
+        {% assign startDate = journal.startDate | split: "-" | slice: 0,2 | join: "." %}
+        {% assign endDate   = journal.endDate   | split: "-" | slice: 0,2 | join: "." | default: "Present" %}
+        {% assign date = startDate | append: " - " %}
+        {% assign date = date | append: endDate %}
+        <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px;">
+        {{ date }}
+        </span>
+        {% endif %}
+      </div>
+      <div class="col-xs-8 cl-sm-8 col-md-8">
+        <h6 class="title font-weight-bold"><a href="{{ journal.journalLink }}">{{ journal.journalName }}</a></h6>
+        {% if journal.note %}
+        <p class="note"><a href="{{ journal.noteLink }}">{{ journal.note }}</a></p>
+        {% endif %}
+      </div>
+      <div class="col-xs-2 cl-sm-2 col-md-2">
+        {% if journal.journalImage %}
+        <img src="{{ journal.journalImage }}" alt="{{ journal.journalName }}" style="max-width: 100%; height: auto;">
+        {% endif %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
