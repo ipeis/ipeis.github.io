@@ -222,6 +222,14 @@
     ],
     "talks": [
         {
+            "title": "Variational Mixture of HyperGenerators for Learning Distributions Over Functions",
+            "date": "2023-12",
+            "institution": "Andaluz.IA forum at Universidad Pablo de Olavide, Sevilla, Spain",
+            "links": [
+                {"type": "slides", "url": "../assets/pdf/AndaluzIA23_presentation.pdf"}
+            ]
+        },
+        {
             "title": "Information Acquisition and Distributions of Functions with Deep Generative Models",
             "date": "2023-06",
             "institution": "Pioneer Centre for Artificial Intelligence, Copenhagen, Denmark",
