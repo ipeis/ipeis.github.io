@@ -1,6 +1,32 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"preprint":
+  url: ""
+  color: "#333333"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"NeurIPS":
+  url: https://neurips.cc/
+  color: ""
+
+"ICML":
+  url: https://icml.cc/
+  color: ""
+
+"PR":
+  url: https://www.sciencedirect.com/journal/pattern-recognition
+  color: "#ff7f00"
+
+"Nature SR":
+    url: https://www.nature.com/srep/
+    color: "#333333"  
+
+"JBHI":
+  url: https://www.embs.org/jbhi/
+  color: "#9400D3"
+
+"Frontiers":
+  url: https://www.frontiersin.org/journals/neuroinformatics
+  color: "#333333" 
+
+ 
+"NSSMIC":
+  url: https://ieee-npss.org/
+  color: "$red-color-dark" 

@@ -1,0 +1,43 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% assign reviewing = data[1] | sort: 'startDate' | reverse %}
+  {% for journal in reviewing %}
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
+        {% if journal.startDate %}
+          {% assign startDate = journal.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+          {% assign endDate = journal.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
+          {% assign date = startDate | append: ' - ' %}
+          {% assign date = date | append: endDate %}
+        {% else %}
+          {% assign date = '' %}
+        {% endif %}
+        <table class="table-cv">
+          <tbody>
+            <tr>
+              <td>
+                <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
+        <h6 class="title font-weight-bold ml-1 ml-md-4">
+          <a href="{{ journal.journalLink }}">{{ journal.journalName }}</a>
+        </h6>
+        {% if journal.note %}
+        <h6 class="note font-weight-bold ml-1 ml-md-4">
+          <a href="{{ journal.noteLink }}">{{ journal.note }}</a>
+        </h6>
+        {% endif %}
+      </div>
+      <div class="col-xs-2 cl-sm-2 col-md-2">
+        {% if journal.journalImage %}
+        <img src="{{ journal.journalImage }}" alt="{{ journal.journalName }}" style="max-width: 100%; height: auto;">
+        {% endif %}
+      </div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>

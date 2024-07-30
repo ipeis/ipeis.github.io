@@ -1,29 +1,33 @@
 
-"Artés-Rodríguez":
-  - firstname: ["Antonio", "A."]
+"frellsen":
+  - firstname: ["Jes", "J."]
+    url: https://frellsen.org/
+
+"artes-rodriguez":
+  - firstname: ["Antonio", "A.", "Antonio Artés"]
     url: https://www.tsc.uc3m.es/~antonio/antonio_artes/Home.html
 
-"Olmos":
-  - firstname: ["Pablo", "P.", "Pablo M.", "P. M."]
+"olmos":
+  - firstname: ["Pablo M.", "P. M."]
     url: https://www.tsc.uc3m.es/~olmos/
 
-"Hernández-Lobato":
+"hernandez-lobato":
   - firstname: ["José-Miguel", "José Miguel", "J.M.", "Jose Miguel"]
     url: https://jmhl.org/
 
-"Ma":
+"ma":
   - firstname: ["Chao", "C."]
     url: https://chao-ma.org/
 
-"Sanchez-Martin":
+"sanchez-martin":
   - firstname: ["Pablo", "P."]
     url: https://is.mpg.de/person/psanchez
 
-"Koyuncu":
+"koyuncu":
   - firstname: ["Batuhan", "B."]
     url: https://www.batukoyuncu.com/
 
-"Valera":
+"valera":
   - firstname: ["Isabel"]
     url: https://ivaleram.github.io/
 
