@@ -285,7 +285,9 @@
       "journalName": "NeurIPS",
       "journalLink": "https://neurips.cc",
       "startDate": "2024",
-      "endDate": "Present"
+      "endDate": "Present",
+      "note": "Selected as Top Reviewer",
+      "noteLink": "https://neurips.cc/Conferences/2024/ProgramCommittee"
     },
     {
       "journalName": "Uncertainty in Artificial Intelligence (UAI)",
