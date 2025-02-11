@@ -199,10 +199,8 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-    permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/
     permalink: /:collection/:title/
 
 announcements:
