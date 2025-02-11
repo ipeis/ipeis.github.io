@@ -33,6 +33,26 @@
       "summary": "Research in Deep Generative Modelling, Approximate Inference and its applications. Working within <a href='https://frellsen.org/'>Jes Frellsen's</a> group at the <a href='https://www.compute.dtu.dk/english/research/research-sections/cogsys'>Section for Cognitive Systems</a>. Awarded with postdoctoral fellowship by the <a href='https://ddsa.dk/'>Danish Data Science Academy (DDSA)</a>, funded by the <a href='https://novonordiskfonden.dk/en/'>Novo Nordisk Foundation</a>."
     },
     {
+      "name": "<a href='https://www.ebiseducation.com/'><b>EBIS Business Techschool</b></a>",
+      "position": "Lecturer",
+      "affiliationLogo": "../assets/img/ebis_logo.png",
+      "location": "Spain",
+      "url": "https://www.ebiseducation.com/",
+      "startDate": "2025-03-01",
+      "endDate": "Present",
+      "summary": "Lecturer in Data Mining, Machine Learning and Deep Learning."
+    },
+    {
+      "name": "<a href='https://www.intor.ai/'><b>Intor.AI</b></a>",
+      "position": "AI Researcher",
+      "affiliationLogo": "../assets/img/intor_logo.png",
+      "location": "Spain",
+      "url": "https://www.intor.ai/",
+      "startDate": "2024-11-01",
+      "endDate": "Present",
+      "summary": "Working in AI Consultancy Projects."
+    },
+    {
       "name": "<a href='https://www.uc3m.es/home'>Universidad Carlos III de Madrid (UC3M)</a>",
       "position": "Predoctoral Researcher",
       "affiliationLogo": "../assets/img/uc3m_logo.jpg",
@@ -208,6 +228,15 @@
     }
   ],
   "teaching": [
+    {
+      "courseTitle": "<a href='https://www.ebiseducation.com/master-en-data-science-e-inteligencia-artificial'>Máster en Data Science e Inteligencia Artificial</a>",
+      "institution": [
+          "<a href='https://www.ebiseducation.com/'><b>EBIS Business Techschool</b></a>"
+      ],
+      "degree": [],
+      "startDate": "2025",
+      "endDate": "Present"
+    },
     {
         "courseTitle": "Course in Advanced Machine Learning",
         "institution": [

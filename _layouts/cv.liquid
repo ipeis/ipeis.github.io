@@ -95,6 +95,8 @@ layout: default
                   {% include resume/grants.liquid %}
                 {% when 'awards' %}
                   {% include resume/awards.liquid %}
+                {% when 'talks' %}
+                  {% include resume/courses.talks %}
                 {% when 'skills' %}
                   {% include resume/skills.liquid %}
                 {% when 'publications' %}
@@ -107,6 +109,8 @@ layout: default
                   {% include resume/languages.liquid %}
                 {% when 'teaching' %}
                   {% include resume/teaching.liquid %}
+                {% when 'reviewing' %}
+                  {% include resume/reviewing.liquid %}                  
                 {% when 'interests' %}
                   {% include resume/interests.liquid %}
                 {% when 'certificates' %}
