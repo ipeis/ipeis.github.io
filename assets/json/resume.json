@@ -305,6 +305,12 @@
   ],
   "reviewing": [
     {
+      "journalName": "Workshop on Neural Network Weights as a New Data Modality (ICLR)",
+      "journalLink": "https://weight-space-learning.github.io/",
+      "startDate": "2025",
+      "endDate": "Present"
+    },
+    {
       "journalName": "ICML",
       "journalLink": "https://icml.cc/",
       "startDate": "2025",
