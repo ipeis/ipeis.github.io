@@ -157,6 +157,13 @@
   ],
   "awards": [
     {
+      "title": "Best Reviewer Award",
+      "date": "2025-22-04",
+      "awarder": "International Conference on Artificial Intelligence and Statistics (AISTATS)",
+      "summary": "Recognition of the quality of services as paper Reviewer.",
+      "url": "https://aistats.org/aistats2025/awards.html"
+    },
+    {
       "title": "Outstanding Thesis Award",
       "date": "2023-12-01",
       "awarder": "Universidad Carlos III de Madrid",
@@ -186,6 +193,15 @@
     }
   ],
   "talks": [
+    {
+      "title": "Hyper-Transforming Latent Diffusion Models",
+      "date": "2025-04",
+      "institution": "CITIC - Universidad de Granada, Spain",
+      "institution_link": "https://citic.ugr.es/",
+      "links": [
+          {"type": "slides", "url": "../assets/pdf/25_04_Granada.pdf"}
+      ]
+  },
     {
         "title": "Variational Mixture of HyperGenerators for Learning Distributions Over Functions",
         "date": "2023-12",
@@ -304,6 +320,12 @@
     }
   ],
   "reviewing": [
+    {
+      "journalName": "The European Conference on Artificial Intelligence (ECAI)",
+      "journalLink": "https://www.ecai2025.eu/",
+      "startDate": "2025",
+      "endDate": "Present"
+    },
     {
       "journalName": "Workshop on Neural Network Weights as a New Data Modality (ICLR)",
       "journalLink": "https://weight-space-learning.github.io/",
