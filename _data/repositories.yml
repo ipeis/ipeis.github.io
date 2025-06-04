@@ -2,6 +2,7 @@ github_users:
   - ipeis
 
 github_repos:
+  - ipeis/LDMI
   - ipeis/HH-VAEM
   - ipeis/HMCTuning
   - ipeis/UG-VAE
