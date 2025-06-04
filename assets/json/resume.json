@@ -196,6 +196,15 @@
     {
       "title": "Hyper-Transforming Latent Diffusion Models",
       "date": "2025-04",
+      "institution": "Section for Cognitive Systems, DTU, Denmark",
+      "institution_link": "https://www.compute.dtu.dk/sections/cogsys",
+      "links": [
+          {"type": "slides", "url": "../assets/pdf/25_06_04_CogSys.pdf"}
+      ]
+  },
+    {
+      "title": "Hyper-Transforming Latent Diffusion Models",
+      "date": "2025-04",
       "institution": "CITIC - Universidad de Granada, Spain",
       "institution_link": "https://citic.ugr.es/",
       "links": [

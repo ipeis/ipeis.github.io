@@ -1,16 +1,22 @@
 ---
 ---
 
-@article{peishyper,
-abbr={preprint},
+@inproceedings{peis2025hyper,
+  abbr={ICML},
   title={Hyper-Transforming Latent Diffusion Models},
-  author={Peis, Ignacio and Koyuncu, Batuhan and Valera, Isabel and Frellsen, Jes, Frellsen},
-  journal={arXiv preprint arXiv:2405.05981},
+  author={Peis, Ignacio and Koyuncu, Batuhan and Valera, Isabel and Frellsen, Jes},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  publisher={PMLR},
   year={2025},
   arxiv={2504.16580},
-  bibtex_show=True,
+  abstract={
+    We introduce a novel generative framework for functions by integrating Implicit Neural Representations (INRs) and Transformer-based hypernetworks into latent variable models. Unlike prior approaches that rely on MLP-based hypernetworks with scalability limitations, our method employs a Transformer-based decoder to generate INR parameters from latent variables, addressing both representation capacity and computational efficiency. Our framework extends latent diffusion models (LDMs) to INR generation by replacing standard decoders with a Transformer-based hypernetwork, which can be trained either from scratch or via hyper-transforming: a strategy that fine-tunes only the decoder while freezing the pre-trained latent space. This enables efficient adaptation of existing generative models to INR-based representations without requiring full retraining. We validate our approach across multiple modalities, demonstrating improved scalability, expressiveness, and generalization over existing INR-based generative models. Our findings establish a unified and flexible framework for learning structured function representations.
+  },
   pdf={https://www.arxiv.org/pdf/2504.16580},
+  code={https://github.com/ipeis/ldmi},
   preview={ldmi_preview.png},
+  bibtex_show=True,
+  selected=True,
 }
 
 @article{james2024scalable,
@@ -20,10 +26,13 @@ abbr={preprint},
   journal={arXiv preprint arXiv:2405.05981},
   year={2024},
   arxiv={2405.05981},
+  abstract={
+    We present a generative model that amortises computation for the field around e.g. gravitational or magnetic sources. Exact numerical calculation has either computational complexity O(M×N) in the number of sources and field evaluation points, or requires a fixed evaluation grid to exploit fast Fourier transforms. Using an architecture where a hypernetwork produces an implicit representation of the field around a source collection, our model instead performs as (M+N), achieves accuracy of ∼4%−6%, and allows evaluation at arbitrary locations for arbitrary numbers of sources, greatly increasing the speed of e.g. physics simulations. We also examine a model relating to the physical properties of the output field and develop two-dimensional examples to demonstrate its application. 
+  },
   bibtex_show=True,
   pdf={https://arxiv.org/pdf/2405.05981.pdf},
   preview={source_to_field.png},
-
+  code={https://github.com/cmt-dtu-energy/hypermagnetics},
 }
 
 @article{peis2023advanced,  
@@ -34,11 +43,9 @@ abbr={preprint},
   year = {2023},
   abstract={
     Deep Generative Models have gained significant popularity in the Machine Learning research community since the early 2010s. These models allow to generate realistic data by leveraging the power of Deep Neural Networks. The field experienced a significant breakthrough when Variational Autoencoders (VAEs) were introduced. VAEs revolutionized Deep Generative Modeling by providing a scalable and flexible framework that enables the generation of complex data distributions and the learning of potentially interpretable latent representations. They have proven to be a powerful tool in numerous applications, from image, sound and video generation to natural language processing or drug discovery, among others.
-At their core, VAEs encode natural information into a reduced latent space and decode the learned latent space into new synthetic data. Advanced versions of VAEs have been developed to handle challenges such as handling heterogeneous incomplete data, encoding into hierarchical latent spaces for representing abstract and richer concepts, or modeling sequential data, among others. These advances have expanded the capabilities of VAEs and made them a valuable tool in a wide range of fields.
-
-Despite the significant progress made in VAE research, there is still ample room for improvement in their current state-of-the-art. One of the major challenges is improving their approximate inference. VAEs typically assume Gaussian approximations of the posterior distribution of the latent variables in order to make the training objective tractable. The parameters of this approximation are provided by encoder networks. However, this approximation leads to a lower bounded objective, which can degrade the performance of any task that requires samples from the approximate posterior, due to the implicit bias. The second major challenge addressed in this thesis is related to achieving meaningful latent representations, or more broadly, how the latent space disentangles generative factors of variation. Ideally, the latent space would modulate meaningful properties separately within each dimension. However, Maximum Likelihood optimizations require the marginalization of latent variables, leading to non-unique solutions that may or may not achieve this desired disentanglement. Additionally, properties learned at the observation level in VAEs assume that every observation is generated independently, which may not be the case in some scenarios. To address these limitations, more robust VAEs have been developed to learn disentangled properties at the supervised group (also referred to as global) level. These models are capable of generating groups of data with shared properties.
-
-The work presented in this doctoral thesis focuses on the development of novel methods for improving the state-of-the-art in VAEs. Specifically, three fundamental challenges are addressed: achieving meaningful global latent representations, obtaining highly-flexible priors for learning more expressive models, and improving current approximate inference methods. As a first main contribution, an innovative technique named UG-VAE from Unsupervised-Global VAE, aims to enhance the ability of VAEs in capturing factors of variations at data (local) and group (global) level. By carefully desigining the encoder and the decoder, and throughout conductive experiments, it is demonstrated that UG-VAE is effective in capturing unsupervised global factors from images. Second, a non-trivial combination of highly-expressive Hierarchical VAEs with robust Markov Chain Monte Carlo inference (specifically Hamiltonian Monte Carlo), for which important issues are successfully resolved, is presented. The resulting model, referred to as the Hierarchical Hamiltonian VAE model for Mixed-type incomplete data (HH-VAEM), addresses the challenges associated with imputing and acquiring heterogeneous missing data. Throughout extensive experiments, it is demonstrated that HH-VAEM outperforms existing one-layered and Gaussian baselines in the tasks of missing data imputation and supervised learning with missing features, thanks to its improved inference and expressivity. Furthermore, another relevant contribution is presented, namely a sampling-based approach for efficiently computing the information gain when missing features are to be acquired with HH-VAEM. This approach leverages the advantages of HH-VAEM and is demonstrated to be effective in the same tasks.
+    At their core, VAEs encode natural information into a reduced latent space and decode the learned latent space into new synthetic data. Advanced versions of VAEs have been developed to handle challenges such as handling heterogeneous incomplete data, encoding into hierarchical latent spaces for representing abstract and richer concepts, or modeling sequential data, among others. These advances have expanded the capabilities of VAEs and made them a valuable tool in a wide range of fields.
+    Despite the significant progress made in VAE research, there is still ample room for improvement in their current state-of-the-art. One of the major challenges is improving their approximate inference. VAEs typically assume Gaussian approximations of the posterior distribution of the latent variables in order to make the training objective tractable. The parameters of this approximation are provided by encoder networks. However, this approximation leads to a lower bounded objective, which can degrade the performance of any task that requires samples from the approximate posterior, due to the implicit bias. The second major challenge addressed in this thesis is related to achieving meaningful latent representations, or more broadly, how the latent space disentangles generative factors of variation. Ideally, the latent space would modulate meaningful properties separately within each dimension. However, Maximum Likelihood optimizations require the marginalization of latent variables, leading to non-unique solutions that may or may not achieve this desired disentanglement. Additionally, properties learned at the observation level in VAEs assume that every observation is generated independently, which may not be the case in some scenarios. To address these limitations, more robust VAEs have been developed to learn disentangled properties at the supervised group (also referred to as global) level. These models are capable of generating groups of data with shared properties.
+    The work presented in this doctoral thesis focuses on the development of novel methods for improving the state-of-the-art in VAEs. Specifically, three fundamental challenges are addressed: achieving meaningful global latent representations, obtaining highly-flexible priors for learning more expressive models, and improving current approximate inference methods. As a first main contribution, an innovative technique named UG-VAE from Unsupervised-Global VAE, aims to enhance the ability of VAEs in capturing factors of variations at data (local) and group (global) level. By carefully desigining the encoder and the decoder, and throughout conductive experiments, it is demonstrated that UG-VAE is effective in capturing unsupervised global factors from images. Second, a non-trivial combination of highly-expressive Hierarchical VAEs with robust Markov Chain Monte Carlo inference (specifically Hamiltonian Monte Carlo), for which important issues are successfully resolved, is presented. The resulting model, referred to as the Hierarchical Hamiltonian VAE model for Mixed-type incomplete data (HH-VAEM), addresses the challenges associated with imputing and acquiring heterogeneous missing data. Throughout extensive experiments, it is demonstrated that HH-VAEM outperforms existing one-layered and Gaussian baselines in the tasks of missing data imputation and supervised learning with missing features, thanks to its improved inference and expressivity. Furthermore, another relevant contribution is presented, namely a sampling-based approach for efficiently computing the information gain when missing features are to be acquired with HH-VAEM. This approach leverages the advantages of HH-VAEM and is demonstrated to be effective in the same tasks.
   },
   pdf={https://ipeis.github.io/assets/pdf/PhD_Thesis_Ignacio_Peis_Defense.pdf},
   slides={https://ipeis.github.io/assets/pdf/PhD_Presentation_Ignacio_Peis.pdf},
@@ -114,7 +121,6 @@ The work presented in this doctoral thesis focuses on the development of novel m
   code={https://github.com/ipeis/UG-VAE},
   pdf={https://www.sciencedirect.com/science/article/pii/S0031320322006100/pdfft?isDTMRedir=true&download=true},
   abstract = {We present a novel deep generative model based on non i.i.d. variational autoencoders that captures global dependencies among observations in a fully unsupervised fashion. In contrast to the recent semi-supervised alternatives for global modeling in deep generative models, our approach combines a mixture model in the local or data-dependent space and a global Gaussian latent variable, which lead us to obtain three particular insights. First, the induced latent global space captures interpretable disentangled representations with no user-defined regularization in the evidence lower bound (as in β-VAE and its generalizations). Second, we show that the model performs domain alignment to find correlations and interpolate between different databases. Finally, we study the ability of the global space to discriminate between groups of observations with non-trivial underlying structures, such as face images with shared attributes or defined sequences of digits images.},
-  selected=True,
   bibtex_show=True,
   preview={ugvae.png}
   }
