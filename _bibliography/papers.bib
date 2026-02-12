@@ -1,6 +1,7 @@
 ---
 ---
 @InProceedings{peis2025hyper,
+  abbr={ICML},
   title = 	 {Hyper-Transforming Latent Diffusion Models},
   author =       {Peis, Ignacio and Koyuncu, Batuhan and Valera, Isabel and Frellsen, Jes},
   booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
@@ -24,17 +25,18 @@
 
 
 @article{james2024scalable,
-abbr={preprint},
+  abbr={TMLR},
   title={Scalable physical source-to-field inference with hypernetworks},
-  author={James, Berian and Pollok, Stefan and Peis, Ignacio and Frellsen, Jes and Bj{\o}rk, Rasmus},
-  journal={arXiv preprint arXiv:2405.05981},
-  year={2024},
-  arxiv={2405.05981},
+  author={Berian James and Stefan Pollok and Ignacio Peis and Elizabeth Louise Baker and Jes Frellsen and Rasmus Bj{\o}rk},
+  journal={Transactions on Machine Learning Research},
+  issn={2835-8856},
+  year={2026},
+  url={https://openreview.net/forum?id=EvfwGpo135},
   abstract={
     We present a generative model that amortises computation for the field around e.g. gravitational or magnetic sources. Exact numerical calculation has either computational complexity O(M×N) in the number of sources and field evaluation points, or requires a fixed evaluation grid to exploit fast Fourier transforms. Using an architecture where a hypernetwork produces an implicit representation of the field around a source collection, our model instead performs as (M+N), achieves accuracy of ∼4%−6%, and allows evaluation at arbitrary locations for arbitrary numbers of sources, greatly increasing the speed of e.g. physics simulations. We also examine a model relating to the physical properties of the output field and develop two-dimensional examples to demonstrate its application. 
   },
   bibtex_show=True,
-  pdf={https://arxiv.org/pdf/2405.05981.pdf},
+  pdf={https://openreview.net/pdf?id=EvfwGpo135},
   preview={source_to_field.png},
   code={https://github.com/cmt-dtu-energy/hypermagnetics},
 }
