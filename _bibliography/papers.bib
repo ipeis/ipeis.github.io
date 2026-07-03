@@ -1,5 +1,35 @@
 ---
 ---
+@inproceedings{
+  margeta2026denoising,
+  title={Denoising Uncertainty via Gaussian Distributional Diffusion Models},
+  author={Noa Margeta and Jes Frellsen and Ignacio Peis},
+  booktitle={Symposium on Probabilistic Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=L3nn7FGB6n},
+  pdf={https://openreview.net/pdf?id=L3nn7FGB6n},
+  abstract = 	 {
+    Diffusion-based generative models achieve state-of-the-art performance across domains such as image synthesis, molecular design, and protein structure modeling. In the infinitesimal-step limit, learning the first moment of the clean-data posterior is equivalent to learning the score and is theoretically sufficient for exact sampling. In practice, however, discretization of the reverse process induces a mismatch that underestimates posterior uncertainty. Whereas prior work has proposed accurate implicit formulations primarily to accelerate sampling, we instead introduce a simpler yet effective Gaussian approximation of the clean-data posterior with a focus on uncertainty quantification. Despite its parametric form, this choice enables closed-form expressions for all relevant distributions, yielding a training procedure nearly identical to standard diffusion models while efficiently capturing uncertainty. We show that this posterior modeling enhances distributional fidelity and enables competitive outlier detection at substantially lower computational cost than existing approaches.
+  },
+  poster={https://ipeis.github.io/assets/pdf/GDDM_ProbML_poster.pdf},
+  code={https://github.com/nmarg/gddm},
+}
+
+@inproceedings{
+  estad2026latent,
+  title={Latent Diffusion for Missing Data},
+  author={Alberte Heering Estad and Ignacio Peis and Jes Frellsen},
+  booktitle={Symposium on Probabilistic Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=j0ranT3CyF},
+  pdf={https://openreview.net/pdf?id=j0ranT3CyF},
+  abstract = 	 {
+    Diffusion models have emerged as powerful generative approaches for missing-data imputation, yet most existing methods operate directly in data space and degrade when training data are heavily incomplete. We investigate whether shifting diffusion to a learned latent representation improves robustness under missing-completely-at-random (MCAR) corruption. To this end, we propose a two-stage framework: a robust VAE-based imputer first learns compact semantic features from incomplete observations, and a diffusion model is then trained in the resulting latent space. Across training missing rates, we perform a controlled comparison against pixel-space diffusion models under the same incomplete-data setting. The latent diffusion model maintains high sample quality and remains stable up to 50% missingness, while pixel-space diffusion degrades progressively as missingness increases. For downstream imputation, latent diffusion also achieves consistently better performance than pixel-space diffusion. These findings indicate that latent-space modeling mitigates artifact amplification from zero-imputed inputs and provides a more robust generative prior for incomplete-data learning. Overall, our results support latent diffusion as a strong and practically useful alternative to pixel-space diffusion for missing-data problems.
+  },
+  poster={https://ipeis.github.io/assets/pdf/LDMiss_ProbML_poster.pdf},
+  code={https://github.com/a-estad/latent-diffusion-missing-data},
+}
+
 @InProceedings{peis2025hyper,
   abbr={ICML},
   title = 	 {Hyper-Transforming Latent Diffusion Models},
